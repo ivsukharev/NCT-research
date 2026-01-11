@@ -1,0 +1,25 @@
+# config.yaml
+# Конфигурация эксперимента для pipeline атак
+
+run_id: "baseline_identity"
+output_dir: "runs"
+
+# Пути до артефактов
+data_csv: "data/cvae_3d_data_processed.csv"
+model_bin: "model/model.bin"
+model_meta: "model/meta.json"
+infer_cli_path: "C#/NctCli"  # путь к проекту C# (где NctCli.csproj)
+
+# Параметры атаки
+attack:
+  name: "identity"  # или "fgsm"
+  params:
+    epsilon: 0.01
+    norm: "l2"
+
+# Логирование и сохранение
+logging:
+  save_clean_inputs: true
+  save_adv_inputs: true
+  save_predictions: true
+  verbose: true
