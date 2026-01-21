@@ -2,7 +2,7 @@
 
 Пайплайн для подготовки данных, обучения NCT и запуска атак с учётом графа корреляций.
 
-## Требования к ПО
+## Окружение
 
 - **Python 3.9+** : с пакетами: `numpy pandas pyyaml`
 
@@ -13,7 +13,7 @@
   - Windows: установить `make` например через Chocolatey:  `choco install make`
   - Linux: `sudo apt-get install make`  
 
-## Структура
+## Структура пайплайна
 ```
 PIPELINE/
 ├─ Makefile                      # prepare / train / build-graph / run-attack
@@ -39,25 +39,25 @@ PIPELINE/
 
 ## Порядок запуска
 
-1) Подготовить данные  
+1) Подготовить данные (разметить для атаки)
 ```bash
 make prepare
 ```
 Готовит `data/cvae_3d_data_processed.csv` или `data/vae_3d_data_processed.csv` (512 признаков).
 
-2) Обучить NCT-модель  
+2) Обучить и сохранить NCT-модель  
 ```bash
 make train
 ```
 Сохраняет в `model/meta.json`.
 
-3) Построить граф корреляций для атаки  
+3) Построить модель связей признаков перед атакой  
 ```bash
 make build-graph
 ```
 Сохраняет в`model/graph.json`.
 
-4) Запустить атаку (C#)  
+4) Запустить атаку на C#
 ```bash
 make run-attack
 ```
