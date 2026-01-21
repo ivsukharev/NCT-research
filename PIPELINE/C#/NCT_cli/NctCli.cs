@@ -20,21 +20,19 @@ public class NctCliProgram
     static void Main(string[] args)
     {
         if (args.Length == 0)
-        {
-            PrintUsage();
             return;
-        }
+
 
         string mode = args[0];
 
         try
         {
-            if (mode == "train")
-                RunTrain(args.Skip(1).ToArray());
-            else if (mode == "infer")
-                RunInfer(args.Skip(1).ToArray());
-            else
-                PrintUsage();
+                if (mode == "train")
+                    RunTrain(args.Skip(1).ToArray());
+                else if (mode == "infer")
+                    RunInfer(args.Skip(1).ToArray());
+                else
+                    return;
         }
         catch (Exception ex)
         {
