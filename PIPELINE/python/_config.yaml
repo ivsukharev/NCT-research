@@ -1,0 +1,29 @@
+# # config.yaml
+
+# output_root: ./runs
+
+# paths:
+#   nct_cli: ./C#/NctCli
+#   model_path: ./model/model.bin
+#   meta_path: ./model/meta.json
+#   input_data: ./data/cvae_3d_data_processed.csv
+
+
+# attack:
+#   source_sample_idx: 0  
+#   target_key_bits: null  
+
+
+# optimization:
+#   learning_rate: 0.01
+#   momentum: 0.9
+#   max_iterations: 2000
+#   epsilon: 1e-4
+
+# logging:
+#   level: INFO
+#   save_clean_inputs: true
+#   save_adv_inputs: true
+#   save_predictions: true
+#   verbose: true
+#   save_history: true

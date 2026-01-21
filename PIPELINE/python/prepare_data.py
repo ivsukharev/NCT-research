@@ -6,18 +6,12 @@ import numpy as np
 from pathlib import Path
 
 def prepare_cvae_dataset(csv_path: str, output_path: str):
-    """
-    Читает исходный CSV (матрица 2800×512 без заголовка)
-    и создаёт новый с колонками: id,class,split,f0..f511
-    
-    Предполагается: 200 классов × 14 изображений
-    """
+
     print(f"[*] Загрузка {csv_path}...")
     data = np.loadtxt(csv_path, delimiter=',')
     print(f"    Shape: {data.shape}")
     
     n_samples, n_features = data.shape
-    assert n_features == 512, f"Ожидается 512 признаков, получено {n_features}"
     
     n_classes = 200
     n_per_class = 14
@@ -39,16 +33,14 @@ def prepare_cvae_dataset(csv_path: str, output_path: str):
             idx += 1
     
     df = pd.DataFrame(records)
-    print(f"[*] Сохранение в {output_path}...")
     df.to_csv(output_path, index=False)
-    print(f"[✓] Готово!")
-    print(f"    Первые 3 строки:")
+    print(f"[DONE] Сохранено в {output_path}...")
+    print(f"    ")
     print(df.head(3))
-    print(f"    Статистика по классам:\n{df.groupby('class').size().describe()}")
-    print(f"    Статистика по split:\n{df['split'].value_counts()}")
+    print(f"...")
 
 if __name__ == '__main__':
     prepare_cvae_dataset(
-        csv_path='data/cvae_3d_data.csv',
-        output_path='data/cvae_3d_data_processed.csv'
+        csv_path='data/vae_3d_data.csv',
+        output_path='data/vae_3d_data_processed.csv'
     )

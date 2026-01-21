@@ -1,0 +1,3711 @@
+{
+  "nct_index": 0,
+  "features": {
+    "25": {
+      "degree": 24,
+      "importance": 1.0,
+      "neurons": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "neurons_count": 6,
+      "partners": {
+        "381": 0.2083,
+        "398": 0.125,
+        "379": 0.125,
+        "425": 0.0,
+        "429": 0.0,
+        "364": 0.0,
+        "382": 0.0,
+        "359": 0.0,
+        "363": 0.0,
+        "340": 0.0,
+        "358": 0.0,
+        "339": 0.0,
+        "428": 0.0,
+        "423": 0.0,
+        "427": 0.0,
+        "431": 0.0,
+        "426": 0.0,
+        "366": 0.0,
+        "352": 0.0,
+        "388": 0.0,
+        "347": 0.0,
+        "342": 0.0,
+        "355": 0.0,
+        "430": 0.0
+      }
+    },
+    "55": {
+      "degree": 20,
+      "importance": 0.8333,
+      "neurons": [
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "neurons_count": 5,
+      "partners": {
+        "381": 0.2083,
+        "501": 0.125,
+        "398": 0.125,
+        "205": 0.0,
+        "164": 0.0,
+        "451": 0.0,
+        "163": 0.0,
+        "446": 0.0,
+        "167": 0.0,
+        "157": 0.0,
+        "497": 0.0,
+        "209": 0.0,
+        "375": 0.0,
+        "208": 0.0,
+        "212": 0.0,
+        "444": 0.0,
+        "495": 0.0,
+        "504": 0.0,
+        "378": 0.0,
+        "448": 0.0
+      }
+    },
+    "58": {
+      "degree": 20,
+      "importance": 0.8333,
+      "neurons": [
+        3,
+        21,
+        43,
+        46,
+        47,
+        53,
+        74,
+        86,
+        87,
+        88,
+        89
+      ],
+      "neurons_count": 11,
+      "partners": {
+        "61": 0.4583,
+        "38": 0.4167,
+        "62": 0.3333,
+        "68": 0.2917,
+        "16": 0.2083,
+        "31": 0.2083,
+        "3": 0.2083,
+        "53": 0.1667,
+        "257": 0.0,
+        "71": 0.0,
+        "35": 0.0,
+        "285": 0.0,
+        "34": 0.0,
+        "284": 0.0,
+        "256": 0.0,
+        "264": 0.0,
+        "72": 0.0,
+        "296": 0.0,
+        "263": 0.0,
+        "272": 0.0
+      }
+    },
+    "70": {
+      "degree": 20,
+      "importance": 0.8333,
+      "neurons": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "neurons_count": 5,
+      "partners": {
+        "482": 0.0,
+        "287": 0.0,
+        "286": 0.0,
+        "272": 0.0,
+        "114": 0.0,
+        "253": 0.0,
+        "109": 0.0,
+        "486": 0.0,
+        "490": 0.0,
+        "220": 0.0,
+        "475": 0.0,
+        "112": 0.0,
+        "489": 0.0,
+        "484": 0.0,
+        "111": 0.0,
+        "479": 0.0,
+        "209": 0.0,
+        "213": 0.0,
+        "222": 0.0,
+        "478": 0.0
+      }
+    },
+    "40": {
+      "degree": 17,
+      "importance": 0.7083,
+      "neurons": [
+        0,
+        56,
+        57,
+        58,
+        59
+      ],
+      "neurons_count": 5,
+      "partners": {
+        "0": 0.2917,
+        "100": 0.125,
+        "78": 0.125,
+        "426": 0.0,
+        "430": 0.0,
+        "248": 0.0,
+        "104": 0.0,
+        "80": 0.0,
+        "327": 0.0,
+        "322": 0.0,
+        "326": 0.0,
+        "429": 0.0,
+        "321": 0.0,
+        "423": 0.0,
+        "247": 0.0,
+        "242": 0.0,
+        "246": 0.0
+      }
+    },
+    "57": {
+      "degree": 17,
+      "importance": 0.7083,
+      "neurons": [
+        3,
+        43,
+        46,
+        47,
+        53,
+        74,
+        84,
+        85,
+        86
+      ],
+      "neurons_count": 9,
+      "partners": {
+        "38": 0.4167,
+        "31": 0.2083,
+        "3": 0.2083,
+        "53": 0.1667,
+        "501": 0.125,
+        "185": 0.0,
+        "166": 0.0,
+        "34": 0.0,
+        "170": 0.0,
+        "160": 0.0,
+        "510": 0.0,
+        "509": 0.0,
+        "35": 0.0,
+        "196": 0.0,
+        "205": 0.0,
+        "200": 0.0,
+        "153": 0.0
+      }
+    },
+    "37": {
+      "degree": 16,
+      "importance": 0.6667,
+      "neurons": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "neurons_count": 4,
+      "partners": {
+        "119": 0.2083,
+        "361": 0.0,
+        "226": 0.0,
+        "118": 0.0,
+        "230": 0.0,
+        "360": 0.0,
+        "463": 0.0,
+        "364": 0.0,
+        "458": 0.0,
+        "229": 0.0,
+        "117": 0.0,
+        "363": 0.0,
+        "120": 0.0,
+        "227": 0.0,
+        "460": 0.0,
+        "459": 0.0
+      }
+    },
+    "47": {
+      "degree": 16,
+      "importance": 0.6667,
+      "neurons": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "neurons_count": 4,
+      "partners": {
+        "381": 0.2083,
+        "398": 0.125,
+        "379": 0.125,
+        "138": 0.0417,
+        "159": 0.0,
+        "260": 0.0,
+        "376": 0.0,
+        "287": 0.0,
+        "273": 0.0,
+        "133": 0.0,
+        "272": 0.0,
+        "375": 0.0,
+        "370": 0.0,
+        "141": 0.0,
+        "388": 0.0,
+        "378": 0.0
+      }
+    },
+    "50": {
+      "degree": 14,
+      "importance": 0.5833,
+      "neurons": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "neurons_count": 4,
+      "partners": {
+        "59": 0.3333,
+        "53": 0.1667,
+        "169": 0.0,
+        "155": 0.0,
+        "164": 0.0,
+        "173": 0.0,
+        "242": 0.0,
+        "228": 0.0,
+        "237": 0.0,
+        "241": 0.0,
+        "162": 0.0,
+        "152": 0.0,
+        "147": 0.0,
+        "151": 0.0
+      }
+    },
+    "8": {
+      "degree": 13,
+      "importance": 0.5417,
+      "neurons": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "neurons_count": 4,
+      "partners": {
+        "10": 0.125,
+        "344": 0.0,
+        "460": 0.0,
+        "469": 0.0,
+        "464": 0.0,
+        "306": 0.0,
+        "310": 0.0,
+        "314": 0.0,
+        "347": 0.0,
+        "341": 0.0,
+        "309": 0.0,
+        "345": 0.0,
+        "466": 0.0
+      }
+    },
+    "6": {
+      "degree": 12,
+      "importance": 0.5,
+      "neurons": [
+        5,
+        6,
+        7
+      ],
+      "neurons_count": 3,
+      "partners": {
+        "59": 0.3333,
+        "78": 0.125,
+        "65": 0.0,
+        "247": 0.0,
+        "242": 0.0,
+        "246": 0.0,
+        "493": 0.0,
+        "241": 0.0,
+        "497": 0.0,
+        "60": 0.0,
+        "491": 0.0,
+        "495": 0.0
+      }
+    },
+    "30": {
+      "degree": 12,
+      "importance": 0.5,
+      "neurons": [
+        40,
+        41,
+        42
+      ],
+      "neurons_count": 3,
+      "partners": {
+        "138": 0.0417,
+        "247": 0.0,
+        "265": 0.0,
+        "223": 0.0,
+        "180": 0.0,
+        "273": 0.0,
+        "133": 0.0,
+        "160": 0.0,
+        "188": 0.0,
+        "173": 0.0,
+        "159": 0.0,
+        "158": 0.0
+      }
+    },
+    "54": {
+      "degree": 12,
+      "importance": 0.5,
+      "neurons": [
+        21,
+        43,
+        46,
+        47,
+        76,
+        77
+      ],
+      "neurons_count": 6,
+      "partners": {
+        "192": 0.3333,
+        "16": 0.2083,
+        "31": 0.2083,
+        "115": 0.1667,
+        "127": 0.1667,
+        "77": 0.1667,
+        "211": 0.125,
+        "235": 0.0417,
+        "35": 0.0,
+        "95": 0.0,
+        "215": 0.0,
+        "34": 0.0
+      }
+    },
+    "66": {
+      "degree": 12,
+      "importance": 0.5,
+      "neurons": [
+        96,
+        97,
+        98
+      ],
+      "neurons_count": 3,
+      "partners": {
+        "192": 0.3333,
+        "501": 0.125,
+        "211": 0.125,
+        "178": 0.0833,
+        "235": 0.0417,
+        "497": 0.0,
+        "441": 0.0,
+        "450": 0.0,
+        "436": 0.0,
+        "426": 0.0,
+        "495": 0.0,
+        "504": 0.0
+      }
+    },
+    "61": {
+      "degree": 11,
+      "importance": 0.4583,
+      "neurons": [
+        19,
+        46,
+        74,
+        86,
+        92,
+        93
+      ],
+      "neurons_count": 6,
+      "partners": {
+        "14": 0.25,
+        "53": 0.1667,
+        "115": 0.1667,
+        "128": 0.125,
+        "163": 0.0,
+        "149": 0.0,
+        "34": 0.0,
+        "144": 0.0,
+        "153": 0.0,
+        "112": 0.0,
+        "123": 0.0
+      }
+    },
+    "38": {
+      "degree": 10,
+      "importance": 0.4167,
+      "neurons": [
+        53,
+        54,
+        55
+      ],
+      "neurons_count": 3,
+      "partners": {
+        "192": 0.3333,
+        "68": 0.2917,
+        "211": 0.125,
+        "178": 0.0833,
+        "204": 0.0417,
+        "205": 0.0,
+        "200": 0.0,
+        "202": 0.0,
+        "71": 0.0,
+        "196": 0.0
+      }
+    },
+    "11": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        14,
+        15
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "158": 0.0,
+        "359": 0.0,
+        "358": 0.0,
+        "176": 0.0,
+        "165": 0.0,
+        "361": 0.0,
+        "355": 0.0,
+        "174": 0.0
+      }
+    },
+    "13": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        17,
+        18
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "384": 0.0,
+        "374": 0.0,
+        "383": 0.0,
+        "304": 0.0,
+        "313": 0.0,
+        "317": 0.0,
+        "298": 0.0,
+        "377": 0.0
+      }
+    },
+    "17": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        23,
+        24
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "266": 0.0,
+        "275": 0.0,
+        "376": 0.0,
+        "371": 0.0,
+        "283": 0.0,
+        "269": 0.0,
+        "366": 0.0,
+        "383": 0.0
+      }
+    },
+    "22": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        27,
+        28
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "367": 0.0,
+        "376": 0.0,
+        "329": 0.0,
+        "324": 0.0,
+        "375": 0.0,
+        "370": 0.0,
+        "304": 0.0,
+        "317": 0.0
+      }
+    },
+    "28": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        36,
+        37
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "134": 0.2083,
+        "138": 0.0417,
+        "206": 0.0,
+        "155": 0.0,
+        "205": 0.0,
+        "218": 0.0,
+        "133": 0.0,
+        "212": 0.0
+      }
+    },
+    "29": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        38,
+        39
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "324": 0.0,
+        "494": 0.0,
+        "304": 0.0,
+        "313": 0.0,
+        "317": 0.0,
+        "489": 0.0,
+        "484": 0.0,
+        "479": 0.0
+      }
+    },
+    "48": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        47,
+        66,
+        67
+      ],
+      "neurons_count": 3,
+      "partners": {
+        "211": 0.125,
+        "501": 0.125,
+        "235": 0.0417,
+        "486": 0.0,
+        "215": 0.0,
+        "35": 0.0,
+        "492": 0.0,
+        "487": 0.0
+      }
+    },
+    "59": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        5,
+        68,
+        90,
+        91
+      ],
+      "neurons_count": 4,
+      "partners": {
+        "297": 0.0,
+        "283": 0.0,
+        "291": 0.0,
+        "289": 0.0,
+        "242": 0.0,
+        "228": 0.0,
+        "237": 0.0,
+        "241": 0.0
+      }
+    },
+    "62": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        74,
+        87,
+        94,
+        95
+      ],
+      "neurons_count": 4,
+      "partners": {
+        "53": 0.1667,
+        "204": 0.0417,
+        "171": 0.0,
+        "254": 0.0,
+        "262": 0.0,
+        "172": 0.0,
+        "247": 0.0,
+        "260": 0.0
+      }
+    },
+    "106": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        115,
+        116
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "488": 0.0,
+        "449": 0.0,
+        "403": 0.0,
+        "402": 0.0,
+        "462": 0.0,
+        "415": 0.0,
+        "414": 0.0,
+        "409": 0.0
+      }
+    },
+    "124": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        121,
+        122
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "161": 0.0,
+        "160": 0.0,
+        "155": 0.0,
+        "159": 0.0,
+        "340": 0.0,
+        "367": 0.0,
+        "352": 0.0,
+        "342": 0.0
+      }
+    },
+    "192": {
+      "degree": 8,
+      "importance": 0.3333,
+      "neurons": [
+        45,
+        55,
+        66,
+        77,
+        94,
+        96,
+        107,
+        110,
+        111,
+        113,
+        127
+      ],
+      "neurons_count": 11,
+      "partners": {
+        "48": 0.3333,
+        "62": 0.3333,
+        "140": 0.125,
+        "78": 0.125,
+        "100": 0.125,
+        "83": 0.0833,
+        "92": 0.0417,
+        "32": 0.0
+      }
+    },
+    "0": {
+      "degree": 7,
+      "importance": 0.2917,
+      "neurons": [
+        0,
+        1
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "43": 0.1667,
+        "252": 0.0,
+        "260": 0.0,
+        "74": 0.0,
+        "273": 0.0,
+        "272": 0.0,
+        "20": 0.0
+      }
+    },
+    "68": {
+      "degree": 7,
+      "importance": 0.2917,
+      "neurons": [
+        3,
+        19,
+        21,
+        53,
+        87,
+        99
+      ],
+      "neurons_count": 6,
+      "partners": {
+        "14": 0.25,
+        "16": 0.2083,
+        "3": 0.2083,
+        "255": 0.0,
+        "254": 0.0,
+        "257": 0.0,
+        "256": 0.0
+      }
+    },
+    "14": {
+      "degree": 6,
+      "importance": 0.25,
+      "neurons": [
+        19,
+        20
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "257": 0.0,
+        "256": 0.0,
+        "259": 0.0,
+        "254": 0.0,
+        "72": 0.0,
+        "71": 0.0
+      }
+    },
+    "3": {
+      "degree": 5,
+      "importance": 0.2083,
+      "neurons": [
+        3,
+        4
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "163": 0.0,
+        "167": 0.0,
+        "157": 0.0,
+        "71": 0.0,
+        "164": 0.0
+      }
+    },
+    "16": {
+      "degree": 5,
+      "importance": 0.2083,
+      "neurons": [
+        21,
+        22
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "181": 0.0,
+        "185": 0.0,
+        "179": 0.0,
+        "71": 0.0,
+        "183": 0.0
+      }
+    },
+    "31": {
+      "degree": 5,
+      "importance": 0.2083,
+      "neurons": [
+        43,
+        44
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "71": 0.0,
+        "466": 0.0,
+        "460": 0.0,
+        "469": 0.0,
+        "464": 0.0
+      }
+    },
+    "119": {
+      "degree": 5,
+      "importance": 0.2083,
+      "neurons": [
+        49,
+        73,
+        120
+      ],
+      "neurons_count": 3,
+      "partners": {
+        "52": 0.125,
+        "436": 0.0,
+        "449": 0.0,
+        "415": 0.0,
+        "441": 0.0
+      }
+    },
+    "129": {
+      "degree": 5,
+      "importance": 0.2083,
+      "neurons": [
+        124,
+        125
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "257": 0.0,
+        "131": 0.0,
+        "256": 0.0,
+        "259": 0.0,
+        "263": 0.0
+      }
+    },
+    "134": {
+      "degree": 5,
+      "importance": 0.2083,
+      "neurons": [
+        2,
+        36,
+        126
+      ],
+      "neurons_count": 3,
+      "partners": {
+        "1": 0.0417,
+        "261": 0.0,
+        "270": 0.0,
+        "267": 0.0,
+        "276": 0.0
+      }
+    },
+    "381": {
+      "degree": 5,
+      "importance": 0.2083,
+      "neurons": [
+        12,
+        26,
+        33,
+        48,
+        65,
+        80,
+        109,
+        114
+      ],
+      "neurons_count": 8,
+      "partners": {
+        "82": 0.0833,
+        "36": 0.0833,
+        "9": 0.0833,
+        "21": 0.0833,
+        "103": 0.0417
+      }
+    },
+    "12": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        16
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "266": 0.0,
+        "259": 0.0,
+        "263": 0.0,
+        "267": 0.0
+      }
+    },
+    "19": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        25
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "505": 0.0,
+        "500": 0.0,
+        "499": 0.0,
+        "494": 0.0
+      }
+    },
+    "24": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        29
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "316": 0.0,
+        "305": 0.0,
+        "337": 0.0,
+        "323": 0.0
+      }
+    },
+    "43": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        0,
+        60
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "311": 0.0,
+        "319": 0.0,
+        "350": 0.0,
+        "298": 0.0
+      }
+    },
+    "44": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        61
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "415": 0.0,
+        "395": 0.0,
+        "403": 0.0,
+        "425": 0.0
+      }
+    },
+    "53": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        68,
+        74,
+        75
+      ],
+      "neurons_count": 3,
+      "partners": {
+        "267": 0.0,
+        "219": 0.0,
+        "261": 0.0,
+        "268": 0.0
+      }
+    },
+    "56": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        83
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "500": 0.0,
+        "503": 0.0,
+        "507": 0.0,
+        "511": 0.0
+      }
+    },
+    "69": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        100
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "467": 0.0,
+        "423": 0.0,
+        "426": 0.0,
+        "389": 0.0
+      }
+    },
+    "77": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        76,
+        106
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "205": 0.0,
+        "200": 0.0,
+        "208": 0.0,
+        "212": 0.0
+      }
+    },
+    "98": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        112
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "427": 0.0,
+        "431": 0.0,
+        "424": 0.0,
+        "428": 0.0
+      }
+    },
+    "113": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        117
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "295": 0.0,
+        "337": 0.0,
+        "323": 0.0,
+        "305": 0.0
+      }
+    },
+    "115": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        76,
+        92,
+        118
+      ],
+      "neurons_count": 3,
+      "partners": {
+        "138": 0.0417,
+        "126": 0.0,
+        "147": 0.0,
+        "151": 0.0
+      }
+    },
+    "116": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        119
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "431": 0.0,
+        "428": 0.0,
+        "437": 0.0,
+        "427": 0.0
+      }
+    },
+    "127": {
+      "degree": 4,
+      "importance": 0.1667,
+      "neurons": [
+        76,
+        123
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "262": 0.0,
+        "265": 0.0,
+        "274": 0.0,
+        "264": 0.0
+      }
+    },
+    "7": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        8
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "421": 0.0,
+        "362": 0.0,
+        "450": 0.0
+      }
+    },
+    "10": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        8,
+        13
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "462": 0.0,
+        "480": 0.0,
+        "488": 0.0
+      }
+    },
+    "51": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        72
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "504": 0.0,
+        "467": 0.0,
+        "487": 0.0
+      }
+    },
+    "52": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        73
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "111": 0.0,
+        "114": 0.0,
+        "109": 0.0
+      }
+    },
+    "78": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        5,
+        56,
+        107
+      ],
+      "neurons_count": 3,
+      "partners": {
+        "204": 0.0417,
+        "197": 0.0,
+        "172": 0.0
+      }
+    },
+    "79": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        108
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "487": 0.0,
+        "467": 0.0,
+        "461": 0.0
+      }
+    },
+    "100": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        56,
+        113
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "204": 0.0417,
+        "171": 0.0,
+        "197": 0.0
+      }
+    },
+    "128": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        92,
+        124
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "502": 0.0,
+        "488": 0.0,
+        "480": 0.0
+      }
+    },
+    "140": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        2,
+        127
+      ],
+      "neurons_count": 2,
+      "partners": {
+        "178": 0.0833,
+        "1": 0.0417,
+        "235": 0.0417
+      }
+    },
+    "211": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        45,
+        55,
+        66,
+        77,
+        96,
+        111,
+        127
+      ],
+      "neurons_count": 7,
+      "partners": {
+        "140": 0.125,
+        "92": 0.0417,
+        "32": 0.0
+      }
+    },
+    "379": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        33,
+        48,
+        65,
+        109,
+        114
+      ],
+      "neurons_count": 5,
+      "partners": {
+        "82": 0.0833,
+        "36": 0.0833,
+        "103": 0.0417
+      }
+    },
+    "398": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        12,
+        26,
+        33,
+        65,
+        80,
+        114
+      ],
+      "neurons_count": 6,
+      "partners": {
+        "21": 0.0833,
+        "9": 0.0833,
+        "103": 0.0417
+      }
+    },
+    "501": {
+      "degree": 3,
+      "importance": 0.125,
+      "neurons": [
+        13,
+        67,
+        72,
+        82,
+        86,
+        98,
+        108
+      ],
+      "neurons_count": 7,
+      "partners": {
+        "79": 0.125,
+        "10": 0.125,
+        "51": 0.125
+      }
+    },
+    "9": {
+      "degree": 2,
+      "importance": 0.0833,
+      "neurons": [
+        12
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "378": 0.0,
+        "375": 0.0
+      }
+    },
+    "21": {
+      "degree": 2,
+      "importance": 0.0833,
+      "neurons": [
+        26
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "401": 0.0,
+        "405": 0.0
+      }
+    },
+    "36": {
+      "degree": 2,
+      "importance": 0.0833,
+      "neurons": [
+        48
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "388": 0.0,
+        "392": 0.0
+      }
+    },
+    "49": {
+      "degree": 2,
+      "importance": 0.0833,
+      "neurons": [
+        68
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "507": 0.0,
+        "511": 0.0
+      }
+    },
+    "82": {
+      "degree": 2,
+      "importance": 0.0833,
+      "neurons": [
+        109
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "388": 0.0,
+        "392": 0.0
+      }
+    },
+    "83": {
+      "degree": 2,
+      "importance": 0.0833,
+      "neurons": [
+        110
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "160": 0.0,
+        "158": 0.0
+      }
+    },
+    "178": {
+      "degree": 2,
+      "importance": 0.0833,
+      "neurons": [
+        55,
+        96,
+        110,
+        111,
+        127
+      ],
+      "neurons_count": 5,
+      "partners": {
+        "83": 0.0833,
+        "92": 0.0417
+      }
+    },
+    "1": {
+      "degree": 1,
+      "importance": 0.0417,
+      "neurons": [
+        2
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "147": 0.0
+      }
+    },
+    "92": {
+      "degree": 1,
+      "importance": 0.0417,
+      "neurons": [
+        111
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "215": 0.0
+      }
+    },
+    "103": {
+      "degree": 1,
+      "importance": 0.0417,
+      "neurons": [
+        114
+      ],
+      "neurons_count": 1,
+      "partners": {
+        "378": 0.0
+      }
+    },
+    "138": {
+      "degree": 1,
+      "importance": 0.0417,
+      "neurons": [
+        2,
+        36,
+        40,
+        62,
+        118
+      ],
+      "neurons_count": 5,
+      "partners": {
+        "1": 0.0417
+      }
+    },
+    "204": {
+      "degree": 1,
+      "importance": 0.0417,
+      "neurons": [
+        45,
+        55,
+        94,
+        107,
+        113
+      ],
+      "neurons_count": 5,
+      "partners": {
+        "32": 0.0
+      }
+    },
+    "235": {
+      "degree": 1,
+      "importance": 0.0417,
+      "neurons": [
+        45,
+        66,
+        77,
+        96,
+        127
+      ],
+      "neurons_count": 5,
+      "partners": {
+        "32": 0.0
+      }
+    },
+    "20": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        0
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "32": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        45
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "34": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        46
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "35": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        47
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "60": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        5
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "65": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        5
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "71": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        3,
+        19,
+        21,
+        43,
+        53,
+        87
+      ],
+      "neurons_count": 6,
+      "partners": {}
+    },
+    "72": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        19,
+        87
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "74": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        0
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "80": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        56
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "95": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        76
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "104": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        56
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "109": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        73,
+        101
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "111": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        73,
+        101
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "112": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        92,
+        101
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "114": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        73,
+        101
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "117": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        49
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "118": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        49
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "120": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        49
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "123": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        92
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "126": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        118
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "131": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        124
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "133": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        36,
+        40,
+        62
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "141": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        62
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "144": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        93
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "147": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        2,
+        69,
+        118
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "149": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        93
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "151": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        69,
+        118
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "152": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        69
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "153": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        84,
+        93
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "155": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        36,
+        69,
+        121
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "157": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        4,
+        78
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "158": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        14,
+        40,
+        110
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "159": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        40,
+        62,
+        121
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "160": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        41,
+        84,
+        110,
+        121
+      ],
+      "neurons_count": 4,
+      "partners": {}
+    },
+    "161": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        121
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "162": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        70
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "163": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        4,
+        78,
+        93
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "164": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        4,
+        70,
+        78
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "165": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        14
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "166": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        84
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "167": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        4,
+        78
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "169": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        70
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "170": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        84
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "171": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        94,
+        113
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "172": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        94,
+        107
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "173": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        41,
+        70
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "174": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        14
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "176": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        14
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "179": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        22
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "180": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        41
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "181": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        22
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "183": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        22
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "185": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        22,
+        85
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "188": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        41
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "196": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        54,
+        85
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "197": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        107,
+        113
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "200": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        54,
+        85,
+        106
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "202": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        54
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "205": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        37,
+        54,
+        79,
+        85,
+        106
+      ],
+      "neurons_count": 5,
+      "partners": {}
+    },
+    "206": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        37
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "208": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        79,
+        106
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "209": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        79,
+        102
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "212": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        37,
+        79,
+        106
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "213": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        102
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "215": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        66,
+        77,
+        111
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "218": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        37
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "219": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        75
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "220": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        102
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "222": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        102
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "223": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        42
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "226": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        50
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "227": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        50
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "228": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        71,
+        90
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "229": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        50
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "230": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        50
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "237": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        71,
+        90
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "241": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        6,
+        71,
+        90
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "242": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        6,
+        57,
+        71,
+        90
+      ],
+      "neurons_count": 4,
+      "partners": {}
+    },
+    "246": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        6,
+        57
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "247": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        6,
+        42,
+        57,
+        95
+      ],
+      "neurons_count": 4,
+      "partners": {}
+    },
+    "248": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        57
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "252": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        1
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "253": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        103
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "254": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        20,
+        95,
+        99
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "255": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        99
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "256": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        20,
+        88,
+        99,
+        125
+      ],
+      "neurons_count": 4,
+      "partners": {}
+    },
+    "257": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        20,
+        88,
+        99,
+        125
+      ],
+      "neurons_count": 4,
+      "partners": {}
+    },
+    "259": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        16,
+        20,
+        125
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "260": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        1,
+        63,
+        95
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "261": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        75,
+        126
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "262": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        95,
+        123
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "263": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        16,
+        88,
+        125
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "264": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        88,
+        123
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "265": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        42,
+        123
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "266": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        16,
+        23
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "267": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        16,
+        75,
+        126
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "268": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        75
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "269": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        23
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "270": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        126
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "272": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        1,
+        63,
+        89,
+        103
+      ],
+      "neurons_count": 4,
+      "partners": {}
+    },
+    "273": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        1,
+        42,
+        63
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "274": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        123
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "275": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        23
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "276": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        126
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "283": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        23,
+        91
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "284": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        89
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "285": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        89
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "286": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        103
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "287": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        63,
+        103
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "289": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        91
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "291": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        91
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "295": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        117
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "296": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        89
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "297": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        91
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "298": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        17,
+        60
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "304": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        17,
+        27,
+        38
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "305": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        29,
+        117
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "306": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        9
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "309": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        9
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "310": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        9
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "311": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        60
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "313": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        17,
+        38
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "314": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        9
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "316": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        29
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "317": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        17,
+        27,
+        38
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "319": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        60
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "321": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        58
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "322": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        58
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "323": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        29,
+        117
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "324": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        27,
+        38
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "326": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        58
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "327": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        58
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "329": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        27
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "337": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        29,
+        117
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "339": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        30
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "340": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        30,
+        122
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "341": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        10
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "342": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        30,
+        122
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "344": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        10
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "345": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        10
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "347": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        10,
+        31
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "350": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        60
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "352": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        30,
+        122
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "355": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        15,
+        31
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "358": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        15,
+        31
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "359": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        15,
+        31
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "360": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        51
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "361": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        15,
+        51
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "362": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        8
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "363": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        32,
+        51
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "364": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        32,
+        51
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "366": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        24,
+        32
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "367": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        28,
+        122
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "370": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        28,
+        64
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "371": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        24
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "374": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        18
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "375": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        12,
+        28,
+        64,
+        80
+      ],
+      "neurons_count": 4,
+      "partners": {}
+    },
+    "376": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        24,
+        28,
+        64
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "377": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        18
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "378": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        12,
+        64,
+        80,
+        114
+      ],
+      "neurons_count": 4,
+      "partners": {}
+    },
+    "382": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        32
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "383": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        18,
+        24
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "384": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        18
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "388": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        33,
+        48,
+        65,
+        109
+      ],
+      "neurons_count": 4,
+      "partners": {}
+    },
+    "389": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        100
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "392": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        48,
+        109
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "395": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        61
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "401": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        26
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "402": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        115
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "403": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        61,
+        115
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "405": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        26
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "409": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        115
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "414": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        115
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "415": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        61,
+        116,
+        120
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "421": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        8
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "423": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        34,
+        59,
+        100
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "424": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        112
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "425": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        35,
+        61
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "426": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        34,
+        59,
+        97,
+        100
+      ],
+      "neurons_count": 4,
+      "partners": {}
+    },
+    "427": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        35,
+        112,
+        119
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "428": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        35,
+        112,
+        119
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "429": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        34,
+        59
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "430": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        34,
+        59
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "431": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        35,
+        112,
+        119
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "436": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        97,
+        120
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "437": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        119
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "441": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        97,
+        120
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "444": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        81
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "446": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        81
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "448": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        81
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "449": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        116,
+        120
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "450": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        8,
+        97
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "451": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        81
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "458": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        52
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "459": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        52
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "460": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        11,
+        44,
+        52
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "461": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        108
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "462": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        13,
+        116
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "463": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        52
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "464": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        11,
+        44
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "466": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        11,
+        44
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "467": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        72,
+        100,
+        108
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "469": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        11,
+        44
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "475": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        104
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "478": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        104
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "479": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        39,
+        104
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "480": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        13,
+        124
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "482": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        104
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "484": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        39,
+        105
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "486": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        67,
+        105
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "487": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        67,
+        72,
+        108
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "488": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        13,
+        116,
+        124
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "489": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        39,
+        105
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "490": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        105
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "491": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        7
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "492": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        67
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "493": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        7
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "494": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        25,
+        39
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "495": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        7,
+        82,
+        98
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "497": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        7,
+        82,
+        98
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "499": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        25
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "500": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        25,
+        83
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "502": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        124
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "503": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        83
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "504": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        72,
+        82,
+        98
+      ],
+      "neurons_count": 3,
+      "partners": {}
+    },
+    "505": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        25
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "507": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        68,
+        83
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    },
+    "509": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        86
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "510": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        86
+      ],
+      "neurons_count": 1,
+      "partners": {}
+    },
+    "511": {
+      "degree": 0,
+      "importance": 0.0,
+      "neurons": [
+        68,
+        83
+      ],
+      "neurons_count": 2,
+      "partners": {}
+    }
+  }
+}

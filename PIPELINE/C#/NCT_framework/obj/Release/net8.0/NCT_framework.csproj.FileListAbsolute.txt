@@ -1,0 +1,12 @@
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\bin\Release\net8.0\NCT_framework.deps.json
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\bin\Release\net8.0\NCT_framework.dll
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\bin\Release\net8.0\NCT_framework.pdb
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\obj\Release\net8.0\NCT_framework.csproj.AssemblyReference.cache
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\obj\Release\net8.0\NCT_framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\obj\Release\net8.0\NCT_framework.AssemblyInfoInputs.cache
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\obj\Release\net8.0\NCT_framework.AssemblyInfo.cs
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\obj\Release\net8.0\NCT_framework.csproj.CoreCompileInputs.cache
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\obj\Release\net8.0\NCT_framework.dll
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\obj\Release\net8.0\refint\NCT_framework.dll
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\obj\Release\net8.0\NCT_framework.pdb
+C:\Users\sukharev\Desktop\учеба\diplom\NCT-research-master\PIPELINE\C#\NCT_framework\obj\Release\net8.0\ref\NCT_framework.dll
