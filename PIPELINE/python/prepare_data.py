@@ -41,6 +41,6 @@ def prepare_cvae_dataset(csv_path: str, output_path: str):
 
 if __name__ == '__main__':
     prepare_cvae_dataset(
-        csv_path='data/vae_3d_data.csv',
+        csv_path=f'data/[UPD]vae_3d_data.csv',
         output_path='data/vae_3d_data_processed.csv'
     )

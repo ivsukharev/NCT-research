@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NCT_framework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+270a8954738b7ae1bb289af841f076808f433347")]
 [assembly: System.Reflection.AssemblyProductAttribute("NCT_framework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NCT_framework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

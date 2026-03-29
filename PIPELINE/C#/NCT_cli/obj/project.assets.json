@@ -79,11 +79,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sukharev\\Desktop\\учеба\\diplom\\NCT-research-master\\PIPELINE\\C#\\NCT_cli\\NctCli.csproj",
+      "projectUniqueName": "c:\\Users\\sukharev\\Desktop\\maga\\diplom\\NCT-research\\PIPELINE\\C#\\NCT_cli\\NctCli.csproj",
       "projectName": "NctCli",
-      "projectPath": "C:\\Users\\sukharev\\Desktop\\учеба\\diplom\\NCT-research-master\\PIPELINE\\C#\\NCT_cli\\NctCli.csproj",
+      "projectPath": "c:\\Users\\sukharev\\Desktop\\maga\\diplom\\NCT-research\\PIPELINE\\C#\\NCT_cli\\NctCli.csproj",
       "packagesPath": "C:\\Users\\sukharev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sukharev\\Desktop\\учеба\\diplom\\NCT-research-master\\PIPELINE\\C#\\NCT_cli\\obj\\",
+      "outputPath": "c:\\Users\\sukharev\\Desktop\\maga\\diplom\\NCT-research\\PIPELINE\\C#\\NCT_cli\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sukharev\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -98,8 +98,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sukharev\\Desktop\\учеба\\diplom\\NCT-research-master\\PIPELINE\\C#\\NCT_framework\\NCT_framework.csproj": {
-              "projectPath": "C:\\Users\\sukharev\\Desktop\\учеба\\diplom\\NCT-research-master\\PIPELINE\\C#\\NCT_framework\\NCT_framework.csproj"
+            "C:\\Users\\sukharev\\Desktop\\maga\\diplom\\NCT-research\\PIPELINE\\C#\\NCT_framework\\NCT_framework.csproj": {
+              "projectPath": "C:\\Users\\sukharev\\Desktop\\maga\\diplom\\NCT-research\\PIPELINE\\C#\\NCT_framework\\NCT_framework.csproj"
             }
           }
         }

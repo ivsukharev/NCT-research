@@ -40,6 +40,7 @@ public class ConstrainedOptimizerGraph
     private readonly double importanceThreshold;
     private readonly List<string> parentFeatures; // родительские признаки (importance >= порог)
     
+    
     public ConstrainedOptimizerGraph(
         NCT nct,
         BitArray key,
@@ -113,43 +114,47 @@ public class ConstrainedOptimizerGraph
     )
     {
         double[] currentImage = (double[])image.Clone();
+        double[] bestImage = (double[])image.Clone();
         var distancesHistory = new List<int>();
-        int bestDistance = int.MaxValue;
+        int bestHamming = ComputeHammingDistance(bestImage, trueClass);
         int patienceCounter = 0;
         
         for (int iteration = 0; iteration < nIterations; iteration++)
         {
+            int previousBest = bestHamming;
             int currentDistance = ComputeHammingDistance(currentImage, trueClass);
             distancesHistory.Add(currentDistance);
             
-            // Логирование прогресса
-            if (verbose && (iteration % 10 == 0 || iteration == 0))
+            if (currentDistance < bestHamming)
             {
-                int delta = distancesHistory[0] - currentDistance;
-                Console.WriteLine($"  Итерация {iteration,4:D}: Hamming distance = {currentDistance,4:D} (улучшение: {delta,4:D})");
+                bestHamming = currentDistance;
+                Array.Copy(currentImage, bestImage, currentImage.Length);
             }
             
-            //  Early stopping
+            // Логирование прогресса
+            if (verbose && (iteration % 100 == 0 || iteration == 0))
+            {
+                int delta = distancesHistory[0] - bestHamming;
+                Console.WriteLine($"  Итерация {iteration,4:D}: Hamming = {currentDistance,3:D} (улучшение: {delta,3:D})");
+            }
+            
             if (earlyStop)
             {
-                if (currentDistance < bestDistance)
-                {
-                    bestDistance = currentDistance;
+                if (currentDistance < previousBest)
                     patienceCounter = 0;
-                }
                 else
-                {
                     patienceCounter++;
-                }
                 
                 if (patienceCounter >= earlyStopping)
                 {
-                    Console.WriteLine($"Early stopping: {earlyStopping} итераций без улучшения");
-                    return (currentImage, BuildMetrics(
+                    Console.WriteLine(
+                        $"Early stopping: {earlyStopping} итераций без улучшения текущего состояния");
+                    return (bestImage, BuildMetricsFromBest(
                         distancesHistory,
                         iteration,
+                        bestHamming,
                         earlyStoppedFlag: true,
-                        reason: "No improvement for 10 iterations"
+                        reason: $"No strict improvement on current iterate for {earlyStopping} iterations"
                     ));
                 }
             }
@@ -160,7 +165,7 @@ public class ConstrainedOptimizerGraph
                 GraphFeature parentFeat = graph.Features[parentId];
                 Dictionary<string, double> partners = parentFeat.Partners;
                 
-                // ля каждого дочернего признака (партнёра)
+                // Для каждого дочернего признака (партнёра)
                 foreach (var kvp in partners)
                 {
                     string partnerIdStr = kvp.Key;
@@ -192,9 +197,11 @@ public class ConstrainedOptimizerGraph
         // Console.WriteLine($"  - Улучшение: {distancesHistory[0] - distancesHistory[distancesHistory.Count - 1]}");
         // Console.WriteLine($"  - Итераций выполнено: {nIterations}");
         
-        return (currentImage, BuildMetrics(
+        int finalH = ComputeHammingDistance(bestImage, trueClass);
+        return (bestImage, BuildMetricsFromBest(
             distancesHistory,
             nIterations,
+            finalH,
             earlyStoppedFlag: false,
             reason: "Max iterations reached"
         ));
@@ -241,9 +248,10 @@ public class ConstrainedOptimizerGraph
     /// <summary>
     /// Собрать метрики
     /// </summary>
-    private AttackMetrics BuildMetrics(
+    private AttackMetrics BuildMetricsFromBest(
         List<int> distancesHistory,
         int iterationsCompleted,
+        int bestHammingDistance,
         bool earlyStoppedFlag,
         string reason
     )
@@ -251,8 +259,8 @@ public class ConstrainedOptimizerGraph
         return new AttackMetrics
         {
             InitialHammingDistance = distancesHistory[0],
-            FinalHammingDistance = distancesHistory[distancesHistory.Count - 1],
-            Improvement = distancesHistory[0] - distancesHistory[distancesHistory.Count - 1],
+            FinalHammingDistance = bestHammingDistance,
+            Improvement = distancesHistory[0] - bestHammingDistance,
             IterationsCompleted = iterationsCompleted,
             DistancesHistory = distancesHistory,
             StoppedEarly = earlyStoppedFlag,
@@ -390,11 +398,12 @@ public class AttackRunnerGraph
             
             var allMetrics = new List<AttackMetrics>();
             var adversarialImages = new List<double[]>();
+            var adversarialRecords = new List<object>();
             
             for (int idx = 0; idx < batchEnd; idx++)
             {
-                //int id = data[idx].Item1;
-                //int Class = data[idx].Item2;
+                int id = data[idx].Item1;
+                int trueClass = data[idx].Item2;
 
                 Console.WriteLine($"ОБРАЗЕЦ {idx + 1}/{batchEnd}:");
                 Console.WriteLine($"  - Целевой класс: {targetNct}");
@@ -411,6 +420,12 @@ public class AttackRunnerGraph
                 
                 metrics.SampleIndex = idx;
                 adversarialImages.Add(adversarialImage);
+                adversarialRecords.Add(new
+                {
+                    id = id,
+                    true_class = trueClass,
+                    features = adversarialImage
+                });
                 allMetrics.Add(metrics);
                 
                 Console.WriteLine($"[DONE] Результат:");
@@ -430,7 +445,8 @@ public class AttackRunnerGraph
                 {
                     learning_rate = learningRate,
                     step_size = stepSize,
-                    n_iterations = nIterations
+                    n_iterations = nIterations,
+                    early_stopping_patience = earlyStopping
                 },
                 metrics = allMetrics
             };
@@ -443,11 +459,7 @@ public class AttackRunnerGraph
             {
                 count = adversarialImages.Count,
                 feature_count = adversarialImages.Count > 0 ? adversarialImages[0].Length : 0,
-                samples = adversarialImages.Select((img, idx) => new
-                {
-                    index = idx,
-                    features = img
-                }).ToList()
+                samples = adversarialRecords
             };
             
             File.WriteAllText(adversarialPath, JsonConvert.SerializeObject(adversarialData, Formatting.Indented));
@@ -524,7 +536,7 @@ public class AttackRunnerGraph
         Console.WriteLine("  --learning-rate <double>    Learning rate (default: 0.01)");
         Console.WriteLine("  --step-size <double>        Step size (default: 1.0)");
         Console.WriteLine("  --n-iterations <int>        Number of iterations (default: 100)");
-        Console.WriteLine("  --early-stopping <int>      Patience: iterations without improvement (default: 30)");
+        Console.WriteLine("  --early-stopping <int>      Patience: итераций без улучшения текущего Hamming (0 = выкл., default: 30)");
         Console.WriteLine("  --batch-size <int>          Batch size (default: 10, 0 = all)");
         Console.WriteLine("  --target-nct <int>          Target NCT index (default: 0)");
         Console.WriteLine("  --help                      Show this help message");
