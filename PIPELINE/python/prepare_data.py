@@ -39,8 +39,15 @@ def prepare_cvae_dataset(csv_path: str, output_path: str):
     print(df.head(3))
     print(f"...")
 
+import argparse
+
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--input', required=True, help='Путь к исходному CSV файлу')
+    parser.add_argument('--output', required=True, help='Путь для сохранения обработанного CSV файла')
+    args = parser.parse_args()
+
     prepare_cvae_dataset(
-        csv_path=f'data/[UPD]vae_3d_data.csv',
-        output_path='data/vae_3d_data_processed.csv'
+        csv_path=args.input,
+        output_path=args.output
     )

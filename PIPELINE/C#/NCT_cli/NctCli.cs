@@ -307,8 +307,8 @@ public class NctCliProgram
         var ncts = new NCT[nctCount];
         var keys = new BitArray[nctCount];
 
-        Console.WriteLine($"  Found {nctCount} NCTs");
-        Console.WriteLine($"  Features: {model.feature_count}, Neurons: {model.neurons_count}");
+        // Console.WriteLine($"  Found {nctCount} NCTs");
+        // Console.WriteLine($"  Features: {model.feature_count}, Neurons: {model.neurons_count}");
 
         for (int i = 0; i < nctCount; i++)
         {
